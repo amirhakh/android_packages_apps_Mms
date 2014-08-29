@@ -1,0 +1,199 @@
+<!-- Copyright (C) 2013 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Message options - Add SMS to calendar -->
+    <string name="menu_add_to_calendar">"اضافه کردن به تقویم"</string>
+
+    <!-- QM - Dialog box buttons -->
+    <string name="button_close">"بستن"</string>
+    <string name="button_view">"مشاهده"</string>
+    <string name="button_templates">"قالب ها"</string>
+
+    <!-- QM - Hint text in message body field when keyboard is exposed -->
+    <string name="type_to_reply_text_enter_to_send">"نوع پاسخ"</string>
+
+    <!-- QM - Toast -->
+    <string name="toast_sending_message">"در حال ارسال پیام"</string>
+
+    <!-- QM - Quick reply -->
+    <string name="qm_quick_reply">"پاسخ"</string>
+    <string name="qm_mark_read">"خواندن:"</string>
+
+    <!-- QM - Counter separator -->
+    <string name="message_counter_separator">"از"</string>
+
+    <!-- NOTIFICATIONS -->
+    <!-- Privacy mode -->
+    <string name="pref_title_notification_privacy_mode_enabled">"حالت حفظ حریم خصوصی"</string>
+    <string name="pref_summary_notification_privacy_mode_enabled">"مخفی کردن فرستنده و پیام در نوار وضعیت و غیر فعال کردن پاسخ سریع"</string>
+    <string name="notification_single_title_privacy_mode">"پیام جدید"</string>
+    <string name="notification_single_text_privacy_mode">"1 پیام خوانده نشده"</string>
+    <string name="notification_multiple_title_privacy_mode">"پیام های جدید"</string>
+    <string name="notification_multiple_text_privacy_mode">""</string>
+    <string name="notification_ticker_privacy_mode">"پیام جدید دریافت شد"</string>
+
+    <!-- Vibrate pattern -->
+    <string name="pref_title_mms_notification_vibrate_pattern">"الگوی ویبره"</string>
+    <string name="pref_summary_mms_notification_vibrate_pattern">"تغییر الگوی ارتعاش"</string>
+    <string name="pref_title_mms_notification_vibrate_custom">"الگوی ارتعاش سفارشی"</string>
+    <string name="pref_text_mms_notification_vibrate_custom">"ساختار خاموش/روشن در میلی ثانیه: خاموش، روشن، خاموش، روشن \u2026"</string>
+
+    <!-- QUICKMESSAGE -->
+    <string name="pref_quickmessage">"پاسخ سریع"</string>
+
+    <!-- Use dark theme -->
+    <string name="pref_dark_theme_title">"استفاده از تم تیره"</string>
+    <string name="pref_dark_theme_summary">"اگر انتخاب نشده باشد، به طور پیش فرض تم 'روشن' استفاده خواهد شد"</string>
+
+    <!-- Show pop-up -->
+    <string name="pref_quickmessage_title">"نمایش پنجره بازشو"</string>
+    <string name="pref_quickmessage_summary">"نمایش پنجره «پیام سریع» برای پیام های دریافتی"</string>
+
+    <!-- Wake and unlock -->
+    <string name="pref_wake_unlock_title">"بیدار و باز"</string>
+    <string name="pref_wake_unlock_summary">"بیدار و باز کردن دستگاه در پیام های دریافتی (صفحه نمایش قفل نا امن تنها)"</string>
+
+    <!-- Close all messages -->
+    <string name="pref_close_all_title">"بستن همه"</string>
+    <string name="pref_close_all_summary">"دکمه بستن بسته تمام پیام ها"</string>
+
+    <!-- SMS TEMPLATES -->
+    <string name="prefs_templates_settings">"قالب پیام ها"</string>
+
+    <!-- Manage SMS templates -->
+    <string name="pref_title_templates_manage">"قالب ها"</string>
+    <string name="pref_summary_templates_manage">"مدیریت قالب پیام های شما"</string>
+    <string name="template_explanation">"قرار دادن یا تغییر متن قالب و اختیاری رسم یک ژست به آن مرتبط"</string>
+    <string name="template_insert_hint">"قرار دادن متن قالب در اینجا"</string>
+    <string name="template_empty_text">"رشته متن نمی تواند خالی باشد"</string>
+    <string name="template_save">"ذخیره"</string>
+    <string name="template_ctx_menu_title">"عملیات"</string>
+    <string name="template_edit">"ویرایش"</string>
+    <string name="template_delete">"حذف"</string>
+    <string name="template_list_title">"قالب ها"</string>
+    <string name="template_new_title">"قالب جدید"</string>
+    <string name="template_insert">"درج قالب"</string>
+    <string name="template_gesture_draw">"رسم ژست در فضای زیر"</string>
+    <string name="template_not_present_error">"هیچ قالب تعریف شده وجود ندارد"</string>
+    <string name="template_not_present_error_title">"خطا"</string>
+    <string name="template_select">"انتخاب یک الگو"</string>
+    <string name="template_confirm_dialog_title">"حذف شود؟"</string>
+    <string name="gestures_already_present">"ژست های مشابه در حال حاضر با قالب دیگری وجود دارد"</string>
+    <string name="select_template">"انتخاب قالب"</string>
+
+    <!-- Show gesture trace -->
+    <string name="pref_title_templates_show_gesture">"حرکت"</string>
+    <string name="pref_summary_templates_show_gesture">"نمایش ردیابی حرکت"</string>
+
+    <!-- Gesture sensitivity -->
+    <string name="pref_title_template_gestures_sensitivity">"حساسیت حرکت"</string>
+
+    <!-- EXTRA SETTINGS -->
+    <string name="pref_extra_settings">"تنظیمات اضافی "</string>
+
+    <!-- Strip unicode -->
+    <string name="pref_title_unicode_stripping">"یونیکد نوار"</string>
+    <string name="pref_unicode_stripping_leave_intact">"حروف را دست نخورده بگذار"</string>
+    <string name="pref_unicode_stripping_non_encodable">"Strip non-encodable characters"</string>
+    <string name="pref_unicode_stripping_all">"Strip all unicode characters"</string>
+
+    <!-- Enable emojis -->
+    <string name="pref_title_enable_emojis">"پشتیبانی از Emoji"</string>
+    <string name="pref_summary_enable_emojis">"فعال کردن پشتیبانی از یونیکد emojis، مجموعه ای از 471 شکلک زیبا"</string>
+    <string name="menu_insert_emoji">"قرار دادن emojis"</string>
+
+    <!-- Enable quick emojis -->
+    <string name="pref_title_enable_quick_emojis">"دکمه  نگارش سریع emoji"</string>
+    <string name="pref_summary_enable_quick_emojis">"نمایش یک دکمه در کنار متن ورودی برای دسترسی سریع emoji نگارش کنید"</string>
+
+    <!-- Enable SoftBank emoji encoding -->
+    <string name="pref_title_enable_softbank_encoding">"emoji نگارش نرم"</string>
+    <string name="pref_summary_enable_softbank_encoding">"استفاده از سافت پشتیبانی می کند emoji نگارش کنید"</string>
+
+    <!-- Full timestamps -->
+    <string name="pref_title_mms_full_timestamp">"برچسب زمانی کامل"</string>
+    <string name="pref_summary_mms_full_timestamp">"نمایش هر دو تاریخ و زمان در برچسب زمانی"</string>
+
+    <!-- Original timestamps -->
+    <string name="pref_title_mms_use_sent_timestamp">"برچسب زمانی اصلی"</string>
+    <string name="pref_summary_mms_use_sent_timestamp">"نمایش تاریخ ارسال به جای تاریخ دریافت در برچسب زمانی ارسال می شود"</string>
+
+    <!-- Soft keyboard type -->
+    <string name="pref_title_input_type">"نوع صفحه کلید نرم"</string>
+    <string name="pref_keyboard_emoji">"نمایش کلید شکلک ها"</string>
+    <string name="pref_keyboard_new_line">"نمایش کلید را وارد کنید"</string>
+    <string name="pref_keyboard_unknown">"ناشناخته، لطفا دوباره انتخاب کنید"</string>
+
+    <!-- Settings item for boolean option for SMS Split Counter -->
+    <string name="pref_title_sms_split_counter">"شمارنده جدا"</string>
+    <!-- Settings item description for boolean SMS Split 160 characters setting -->
+    <string name="pref_summary_sms_split_counter">"می افزاید: مقابله با سابق پیام. (1/2)"</string>
+
+    <!-- Insert contact information -->
+    <string name="menu_insert_contact_info">"درج اطلاعات تماس"</string>
+    <string name="cannot_find_contact">"آیا می توانم اطلاعات تماس انتخاب شده وارد نمایید"</string>
+    <string name="insert_contact_info_positive_button">"درج"</string>
+
+    <!-- MMS push permission -->
+    <string name="label_mms_push">"درج MMS"</string>
+    <string name="desc_mms_push">"هل MMS از صندوق ارسال به شبکه"</string>
+
+    <!-- Blacklist preferences -->
+    <string name="blacklist_title">"لیست سیاه"</string>
+    <string name="blacklist_summary_disabled">"غیر فعال"</string>
+    <string name="blacklist_summary">"پیام های دریافتی از شماره تلفن در لیست سیاه مسدود خواهد شد"</string>
+
+    <!-- Blacklist notifications -->
+    <string name="blacklist_notification">"مسدود شده یک پیام از %s"</string>
+    <string name="blacklist_notification_private_number">"یک پیام از یک شماره خصوصی مسدود شده"</string>
+    <string name="blacklist_notification_list_private">"خصوصی "</string>
+    <string name="blacklist_notification_unknown_number">"یک پیام از تعداد نامعلومی %s مسدود شده"</string>
+    <string name="blacklist_notification_multiple">""</string>
+    <string name="unblock_number">"بازکردن مسدود شده"</string>
+
+    <!-- Blacklist management -->
+    <string name="add_to_blacklist">"افزودن به لیست سیاه"</string>
+    <string name="add_to_blacklist_message">"پیام های آینده از %s مسدود خواهد شد"</string>
+
+    <!-- Generic blacklist handling -->
+    <string name="alert_dialog_yes">"بله"</string>
+    <string name="alert_dialog_no">"خیر"</string>
+
+    <!-- Toast when storage is full -->
+    <string name="storage_is_full">"پایگاه داده های پیام پر است. لطفا مکالمات را حذف کنید."</string>
+
+    <!-- Context menu item on an failed message for resending -->
+    <string name="menu_resend">"ارسال دوباره"</string>
+
+    <!-- Multi recipients -->
+    <string name="select_recipients">"انتخاب دریافت کنندگان"</string>
+    <string name="groups_header">"گروه ها"</string>
+    <string name="no_recipients">"مخاطبی یافت نشد"</string>
+    <string name="no_recipients_mobile_only">"تماس بدون پیدا نشد. بدون فیلتر 'فقط شماره موبایل' سعی کنید"</string>
+    <string name="menu_done">"انجام شد"</string>
+    <string name="menu_mobile">"فقط شماره تلفن همراه"</string>
+    <string name="menu_groups">"نمایش گروه"</string>
+    <string name="fastscroll_index_groups">"GR"</string> <!-- CHAR LIMIT=3 -->
+
+    <!-- Delay delivery -->
+    <string name="pref_title_send_delay">"تحویل با تاخیر"</string>
+    <string name="send_delay_immediate">"ارسال بلافاصله"</string>
+    <string name="send_delay_3seconds">"3 ثانیه"</string>
+    <string name="send_delay_5seconds">"5 ثانیه"</string>
+    <string name="send_delay_10seconds">"10 ثانیه"</string>
+    <string name="send_delay_20seconds">"20 ثانیه"</string>
+    <string name="send_delay_30seconds">"30 ثانیه"</string>
+    <string name="sent_countdown">"شمارش معکوس تحویل پیام"</string>
+
+</resources>
